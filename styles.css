@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+
+.container { 
+  padding:.5em 2em; 
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  margin-left: -20px;
+  float: left;
+}
+
+.complete { 
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task {
+  margin-bottom: 1em;
+}

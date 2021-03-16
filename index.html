@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="flex-center container">
+      <h1>Todo List</h1>
+    </div>
+    <div class="flex-center container">
+      <form id="task-form">
+        <label for="task"></label>
+        <input id="task" type="text" required placeholder="Add a Task" autocomplete="off">
+        <button>Add Task</button>
+      </form>
+    </div>
+    <section class="container">
+      <h2>Tasks</h2>
+      <ul id="todo-list">
+      </ul>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
